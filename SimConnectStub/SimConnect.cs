@@ -77,37 +77,37 @@ public class SimConnect
 
         public void AddToDataDefinition( Object eDef, string? parameter, string v1, SIMCONNECT_DATATYPE sTRING256, float v2, int sIMCONNECT_UNUSED)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void ReceiveMessage()
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void RegisterDataDefineStruct<T>(Object eDef)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void RequestDataOnSimObjectType(object eRequest, object eDef, int v, SIMCONNECT_SIMOBJECT_TYPE aLL)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void RequestSystemState(object s, string v)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public void SubscribeToSystemEvent( object x, string v)
         {
-            throw new NotImplementedException();
+            return;
         }
 
         public class RecvOpenEventHandler
