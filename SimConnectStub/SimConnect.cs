@@ -1,4 +1,11 @@
-﻿namespace SimConnectStubb
+﻿#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning disable IDE0044
+#pragma warning disable CA1822
+#pragma warning disable IDE0051
+#pragma warning disable IDE0060
+#pragma warning disable CA2211
+
+namespace SimConnectStubb
 {
 
     public enum SIMCONNECT_SIMOBJECT_TYPE
@@ -171,4 +178,3 @@ public class SimConnect
         }
     }
 }
-
