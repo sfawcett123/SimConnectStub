@@ -4,6 +4,7 @@
 #pragma warning disable IDE0051
 #pragma warning disable IDE0060
 #pragma warning disable CA2211
+#pragma warning disable CS0169
 
 namespace SimConnectStubb
 {
